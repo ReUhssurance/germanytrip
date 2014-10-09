@@ -2,7 +2,7 @@ import MySQLdb
 import heapq
 
 #Establish MySQLdb Connection
-db = MySQLdb.connect("localhost","root","saosin117","trip");
+db = MySQLdb.connect("localhost","root","password","trip");
 
 #Create db Cursor
 cur = db.cursor()
